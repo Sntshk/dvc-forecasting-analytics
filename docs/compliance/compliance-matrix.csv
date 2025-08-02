@@ -1,0 +1,6 @@
+"S.No.","Requirement Reference","Requirement Description","Compliance (Y/N/Partial)","Evidence / Implementation Reference","Remarks"
+"1","Sec 1.1","Intraday, Day-ahead, Week-ahead forecasting","Y","src/core/forecasting/","Fully supported"
+"2","Sec 1.2","Medium-term (seasonal, year ahead) load forecast","Y","src/core/forecasting/medium_term.py",""
+"3","Sec 1.5","Integrate weather providers & track forecast error","Partial","src/core/data_ingestion/weather_api.py","Limited providers"
+"4","Sec 3.3.3","APIs for Power Exchange integration","Y","src/api/endpoints.py","DAM, RTM implemented"
+"...","...","...","...","...","..."
